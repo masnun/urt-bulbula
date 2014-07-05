@@ -5,7 +5,7 @@ import time
 import random
 
 
-HOST = "5.135.165.3434"
+HOST = "5.135.165.34"
 PORT = "27001"
 
 

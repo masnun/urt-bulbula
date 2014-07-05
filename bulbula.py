@@ -46,10 +46,10 @@ class UrTBulbula:
                 self.say(str(len(self.server['players'])) + " players are now playing")
             while True:
                 old_players = [player['name'] for player in self.server['players']]
-                print old_players
+                #print old_players
                 self.server = self.get_server_details()
                 current_players = [player['name'] for player in self.server['players']]
-                print current_players
+                #print current_players
                 new_players = []
 
                 for player in current_players:
